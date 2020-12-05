@@ -1,16 +1,18 @@
 class CfgPatches {
-    class WB_fix_PO {
-        name = "Weapons balance - Fix PO";
+    class WB_fix_PB {
+        name = "Weapons balance - Fix Project BLUFOR";
         units[] = {};
         weapons[] = {};
         requiredVersion = 1.96;
         requiredAddons[] = {
-            "po_factions_afr",
-            "po_factions_eu",
-            "po_factions_fic",
-            "po_factions_me",
-            "po_main",
-            "po_vehicles"
+            "ArmaReTex_C7",
+            "ArmaReTex_PM63_Automatic",
+            "ArmaReTex_TAR21",
+            "ArmaReTex_Radios",
+            "bg21_famas_prplredux",
+            "PB_Rucksack",
+            "QIN_CZ_BREN2",
+            "tfar_backpacks"
         };
         author = "johnb43";
     };
@@ -18,4 +20,5 @@ class CfgPatches {
 
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
+#include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
