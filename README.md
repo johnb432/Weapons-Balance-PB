@@ -1,3 +1,12 @@
+# Changelog for Weapons balance 30.12.2020
+
+- Addition of 8x PB/custom 5.56x45 25Rnd FAMAS mags: M856 & M856A1 variants
+
+- Weapon changes:
+    - PB:
+        - FAMAS F1 (Railed):
+            - Changed name to "FAMAS F1 (Rail)"
+
 # Changelog for Weapons balance 05.12.2020
 
 - Added 6x Custom 5.56x45 25Rnd FAMAS mags: M855, M855A1, M856, M856A1, Mk262, Mk318
@@ -5,7 +14,7 @@
 - Weapon changes:
     - PB:
         - C7A1:
-            - Changed muzzle breaks from 7.62 to 5.56
+            - Changed muzzle attachments from 7.62 to 5.56
         - CZ Bren 2 (11"):
             - Changed weight from 3.05kg to 2.91kg
         - CZ Bren 2 (14"):

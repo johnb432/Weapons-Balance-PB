@@ -96,7 +96,7 @@ class CfgWeapons {
         };
     };
     class bg21_famas2: bg21_famas_base {
-        displayName = "FAMAS F1 (Railed)";
+        displayName = "FAMAS F1 (Rail)";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 81.6;
         };
