@@ -16,7 +16,8 @@ class CfgMagazineWells {
             "25Rnd_556x45_famas_M855A1_tr_White",
             "25Rnd_556x45_famas_M855A1_tr_Yellow",
             "25Rnd_556x45_famas_Mk262",
-            "25Rnd_556x45_famas_Mk318"
+            "25Rnd_556x45_famas_Mk318",
+            "25Rnd_556x45_famas_IR_DIM"
         };
     };
 

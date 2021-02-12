@@ -1,11 +1,20 @@
-# Changelog for Weapons balance 30.12.2020
+# Changelog for magazine_compatibility 03.01.2021
 
-- Addition of 8x PB/custom 5.56x45 25Rnd FAMAS mags: M856 & M856A1 variants
+- Updated to comply with 3CB Faction update
+
+# Changelog for Weapons balance 31.12.2020
+
+- Addition of 9x PB/custom 5.56x45 25Rnd FAMAS mags: M856 & M856A1 variants, IR-DIM
 
 - Weapon changes:
     - PB:
         - FAMAS F1 (Railed):
             - Changed name to "FAMAS F1 (Rail)"
+
+- MagazineWells:
+    - CBA:
+        - 5.56 FAMAS:
+            - Added 9x Custom 25Rnd mags
 
 # Changelog for Weapons balance 05.12.2020
 
