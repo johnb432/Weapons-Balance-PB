@@ -1,6 +1,7 @@
-class asdg_MuzzleSlot_556;
 class asdg_FrontSideRail;
 class asdg_OpticRail1913;
+class asdg_MuzzleSlot_762R;
+class rhs_russian_ak_barrel_slot;
 
 class CfgWeapons {
     class Rifle;
@@ -75,6 +76,8 @@ class CfgWeapons {
         displayName = "PM-63 (Automatic)";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 76.1;
+            class MuzzleSlot: asdg_MuzzleSlot_762R {};
+            class PointerSlot: rhs_russian_ak_barrel_slot {};
         };
     };
 
@@ -99,12 +102,15 @@ class CfgWeapons {
         displayName = "FAMAS F1 (Rail)";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 81.6;
+            class MuzzleSlot: asdg_MuzzleSlot_556 {};
         };
     };
     class bg21_famas_HG: bg21_famas_base {
         displayName = "FAMAS F1 (HG)";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 84.6;
+            delete MuzzleSlot;
+            class MuzzleSlot: asdg_MuzzleSlot_556 {};
         };
     };
     class bg21_famas_FS_blk: bg21_famas_HG {
@@ -122,12 +128,27 @@ class CfgWeapons {
 
     class muzzle_snds_H;
     class prpl_famas_rds: muzzle_snds_H {
-        displayName = "FAMAS suppressor";
+        displayName = "FAMAS Suppressor";
     };
     class prpl_famas_rds_grn: prpl_famas_rds {
-        displayName = "FAMAS suppressor (Green)";
+        displayName = "FAMAS Suppressor (Green)";
     };
     class prpl_famas_rds_tan: prpl_famas_rds {
-        displayName = "FAMAS suppressor (Tan)";
+        displayName = "FAMAS Suppressor (Tan)";
+    };
+
+    class arifle_TRG20_F;
+    class CTAR21_Black: arifle_TRG20_F {
+        displayName = "CTAR-21 (Black)";
+    };
+
+    class arifle_TRG21_GL_F;
+    class GTAR21_EGLM_Black: arifle_TRG21_GL_F {
+        displayName = "GTAR-21 EGLM (Black)";
+    };
+
+    class arifle_TRG21_F;
+    class TAR21_Black: arifle_TRG21_F {
+        displayName = "TAR-21 (Black)";
     };
 };

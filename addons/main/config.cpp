@@ -1,9 +1,11 @@
+#include "script_component.hpp"
+
 class CfgPatches {
-    class WB_fix_PB {
-        name = "Weapons balance - Fix Project BLUFOR";
+    class ADDON {
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1.96;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "ArmaReTex_C7",
             "ArmaReTex_PM63_Automatic",
@@ -18,6 +20,7 @@ class CfgPatches {
     };
 };
 
+#include "CfgAcc.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
 #include "CfgVehicles.hpp"

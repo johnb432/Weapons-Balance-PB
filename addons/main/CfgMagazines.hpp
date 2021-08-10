@@ -23,10 +23,12 @@ class CfgMagazines {
     class 25Rnd_556x45_famas: 30rnd_556x45_stanag {
         displayName = "5.56mm 25Rnd FAMAS";
         descriptionShort = "Caliber: 5.56x45 mm STANAG<br/>Rounds: 25<br/>Used in: FAMAS";
+        mass = 8;
         tracersEvery = 0;
     };
     class 25Rnd_556x45_famas_tr: 30rnd_556x45_stanag {
         displayName = "5.56mm 25Rnd FAMAS (Yellow Tracer)";
+        mass = 8;
     };
 
     class 25Rnd_556x45_famas_M855: rhs_mag_30Rnd_556x45_M855_Stanag {

@@ -1,4 +1,10 @@
-# Changelog for magazine_compatibility 03.01.2021
+# Changelog for Weapons balance 9.8.2021
+
+1.1.0.0
+- Added hemtt support
+- Added weapon attachments compatibility
+
+# Changelog for Weapons balance 3.1.2021
 
 - Updated to comply with 3CB Faction update
 
@@ -16,7 +22,7 @@
         - 5.56 FAMAS:
             - Added 9x Custom 25Rnd mags
 
-# Changelog for Weapons balance 05.12.2020
+# Changelog for Weapons balance 5.12.2020
 
 - Added 6x Custom 5.56x45 25Rnd FAMAS mags: M855, M855A1, M856, M856A1, Mk262, Mk318
 
