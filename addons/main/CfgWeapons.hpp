@@ -85,6 +85,8 @@ class CfgWeapons {
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class bg21_famas_base: arifle_MX_Base_F {
+        ACE_barrelLength = 488;
+        ACE_barrelTwist = 304.8;
         displayName = "FAMAS F1";
         magazineWell[] = {"CBA_556x45_FAMAS"};
         class WeaponSlotsInfo {

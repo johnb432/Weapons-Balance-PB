@@ -1,3 +1,11 @@
+# Changelog for Weapons balance 26.9.2021
+
+1.1.0.1
+- Weapon changes:
+    - PB:
+        - FAMASs:
+            - Changed ACE barrel stats
+
 # Changelog for Weapons balance 9.8.2021
 
 1.1.0.0
