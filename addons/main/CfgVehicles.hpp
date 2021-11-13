@@ -63,6 +63,10 @@ class CfgVehicles {
         mass = 100;
         maximumLoad = 160;
     };
+    class unv_M84_big_rt1523g: TFAR_rt1523g_big {
+        mass = 100;
+        maximumLoad = 160;
+    };
     class unv_m90_big_rt1523g: TFAR_rt1523g_big {
         mass = 100;
         maximumLoad = 160;

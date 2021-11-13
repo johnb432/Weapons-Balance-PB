@@ -1,3 +1,10 @@
+# Changelog for Weapons balance 13.11.2021
+
+1.1.0.2
+- Backpack changes:
+    - PB:
+        - Rebalanced M84 Big LR backpack
+
 # Changelog for Weapons balance 26.9.2021
 
 1.1.0.1
