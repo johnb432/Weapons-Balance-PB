@@ -1,11 +1,17 @@
-# Changelog for Weapons balance 13.11.2021
+# Changelog for Weapons Balance 23.1.2022
+
+1.1.0.3
+- Moved White Tracer 5.56 FAMAS magazines from PB to 3CB Factions Weapons Balance.
+- Renamed magazines to more accurately fit their contents.
+
+# Changelog for Weapons Balance 13.11.2021
 
 1.1.0.2
 - Backpack changes:
     - PB:
         - Rebalanced M84 Big LR backpack
 
-# Changelog for Weapons balance 26.9.2021
+# Changelog for Weapons Balance 26.9.2021
 
 1.1.0.1
 - Weapon changes:
@@ -13,17 +19,17 @@
         - FAMASs:
             - Changed ACE barrel stats
 
-# Changelog for Weapons balance 9.8.2021
+# Changelog for Weapons Balance 9.8.2021
 
 1.1.0.0
 - Added hemtt support
 - Added weapon attachments compatibility
 
-# Changelog for Weapons balance 3.1.2021
+# Changelog for Weapons Balance 3.1.2021
 
 - Updated to comply with 3CB Faction update
 
-# Changelog for Weapons balance 31.12.2020
+# Changelog for Weapons Balance 31.12.2020
 
 - Addition of 9x PB/custom 5.56x45 25Rnd FAMAS mags: M856 & M856A1 variants, IR-DIM
 
@@ -37,7 +43,7 @@
         - 5.56 FAMAS:
             - Added 9x Custom 25Rnd mags
 
-# Changelog for Weapons balance 5.12.2020
+# Changelog for Weapons Balance 5.12.2020
 
 - Added 6x Custom 5.56x45 25Rnd FAMAS mags: M855, M855A1, M856, M856A1, Mk262, Mk318
 
