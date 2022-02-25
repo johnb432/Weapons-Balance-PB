@@ -1,6 +1,6 @@
 class CfgMagazineWells {
     class CBA_556x45_FAMAS {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "25Rnd_556x45_famas",
             "25Rnd_556x45_famas_tr",
             "25Rnd_556x45_famas_M855",
@@ -20,7 +20,7 @@ class CfgMagazineWells {
     };
 
     class CBA_556x45_STANAG {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "qin_30Rnd_556x45_Stanag",
             "qin_30Rnd_556x45_Stanag_Tracer_Red"
         };

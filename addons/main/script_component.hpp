@@ -1,5 +1,5 @@
 #define COMPONENT main
-#include "\z\wb_pb\addons\main\script_mod.hpp"
+#include "script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -13,5 +13,7 @@
 #ifdef DEBUG_SETTINGS_WB_PB
     #define DEBUG_SETTINGS DEBUG_SETTINGS_WB_PB
 #endif
+
+#define MAGAZINE_WELL WB_Magazines
 
 #include "\x\cba\addons\main\script_macros_common.hpp"
