@@ -4,16 +4,9 @@ class asdg_MuzzleSlot_762R;
 class rhs_russian_ak_barrel_slot;
 
 class CfgWeapons {
-    class Rifle;
-    class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo {};
-    };
-    class Rifle_Long_Base_F: Rifle_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
-
+    class Rifle_Base_F;
     class hlc_ar15_base: Rifle_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
     class ArmaReTex_C7: hlc_ar15_base {
         class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -22,9 +15,8 @@ class CfgWeapons {
     };
 
     class QIN_CZ_BREN2_Base: Rifle_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
-
     class QIN_CZ_BREN2_556_11: QIN_CZ_BREN2_Base {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 64.1;
@@ -38,7 +30,7 @@ class CfgWeapons {
 
     class QIN_CZ_BREN2_762_Base: QIN_CZ_BREN2_Base {
         magazineWell[] += {"AK_762x39","CBA_762x39_AK","CBA_762x39_RPK"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
     class QIN_CZ_BREN2_762_8: QIN_CZ_BREN2_762_Base {
         class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -52,7 +44,7 @@ class CfgWeapons {
     };
 
     class QIN_CZ_BREN2_762_GL_Base: QIN_CZ_BREN2_762_Base {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
     class QIN_CZ_BREN2_762_14_GL: QIN_CZ_BREN2_762_GL_Base {
         class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -60,17 +52,9 @@ class CfgWeapons {
         };
     };
 
-    class rhs_weap_ak74m_Base_F: Rifle_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
-    class rhs_weap_ak74m: rhs_weap_ak74m_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
-    class rhs_weap_akm: rhs_weap_ak74m {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
+    class rhs_weap_akm;
     class rhs_weap_pm63: rhs_weap_akm {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
     class ArmaReTex_PM63_Automatic: rhs_weap_pm63 {
         displayName = "PM-63 (Automatic)";
@@ -81,9 +65,7 @@ class CfgWeapons {
         };
     };
 
-    class arifle_MX_Base_F: Rifle_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
+    class arifle_MX_Base_F;
     class bg21_famas_base: arifle_MX_Base_F {
         ACE_barrelLength = 488;
         ACE_barrelTwist = 304.8;
