@@ -7,14 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ArmaReTex_C7",
-            "ArmaReTex_PM63_Automatic",
-            "ArmaReTex_TAR21",
-            "ArmaReTex_Radios",
-            "bg21_famas_prplredux",
-            "PB_Rucksack",
-            "QIN_CZ_BREN2",
-            "tfar_backpacks"
+            "wb_pb_prep"
         };
         author = "johnb43";
         authors[] = {"johnb43"};

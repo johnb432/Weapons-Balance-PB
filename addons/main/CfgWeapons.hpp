@@ -93,7 +93,6 @@ class CfgWeapons {
         displayName = "FAMAS F1 (HG)";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 84.6;
-            delete MuzzleSlot;
             class MuzzleSlot: asdg_MuzzleSlot_556 {};
         };
     };
