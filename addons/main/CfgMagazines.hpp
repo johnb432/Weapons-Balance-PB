@@ -25,14 +25,14 @@ class CfgMagazines {
         displayNameShort = "Tracer";
     };
 
-    class 25Rnd_556x45_famas: 30rnd_556x45_stanag {
+    class 25Rnd_556x45_famas: 30Rnd_556x45_Stanag {
         descriptionShort = "Caliber: 5.56x45mm M193<br/>Type: FMJ<br/>Rounds: 25<br/>Used in: FAMAS";
         displayName = "25Rnd 5.56x45 M193 Mag";
         displayNameShort = "FMJ";
         mass = 8;
         tracersEvery = 0;
     };
-    class 25Rnd_556x45_famas_tr: 30rnd_556x45_stanag {
+    class 25Rnd_556x45_famas_tr: 30Rnd_556x45_Stanag {
         descriptionShort = "Caliber: 5.56x45mm M196<br/>Type: Tracer<br/>Rounds: 25<br/>Used in: FAMAS";
         displayName = "25Rnd 5.56x45 M196 Mag (Yellow Tracer)";
         displayNameShort = "Tracer";
