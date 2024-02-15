@@ -1,4 +1,14 @@
 class CfgMagazineWells {
+    class CBA_556x45_AK {
+        MAGAZINE_WELL[] += {
+            "PB_30Rnd_556x45_AK_M855_TG",
+            "PB_30Rnd_556x45_AK_M855_TR",
+            "PB_30Rnd_556x45_AK_M855",
+            "PB_30Rnd_556x45_AK_M855A1",
+            "PB_30Rnd_556x45_AK_M856A1"
+        };
+    };
+
     class CBA_556x45_FAMAS {
         MAGAZINE_WELL[] += {
             "25Rnd_556x45_famas",

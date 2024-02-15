@@ -13,6 +13,11 @@ class CfgMagazines {
     class rhs_mag_30Rnd_556x45_Mk262_Stanag;
     class rhs_mag_30Rnd_556x45_Mk318_Stanag;
 
+    class CA_Magazine;
+    class KARRK62_Mag: CA_Magazine {
+        mass = 13.5;
+    };
+
     class qin_30Rnd_556x45_Stanag: 30Rnd_556x45_Stanag {
         descriptionShort = "Caliber: 5.56x45mm M855<br/>Type: FMJ/Tracer<br/>Rounds: 30<br/>Used in: M16";
         displayName = "30Rnd 5.56x45 M855 Mag (Yellow Tracer Reload)";
