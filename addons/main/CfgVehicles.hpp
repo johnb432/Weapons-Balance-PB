@@ -41,8 +41,7 @@ class CfgVehicles {
         displayName = "[CADPAT-AR] Rucksack";
     };
 
-    class TFAR_Bag_Base;
-    class B_RadioBag_01_base_F: TFAR_Bag_Base {
+    class B_RadioBag_01_base_F: Bag_Base {
         mass = 90;
         maximumLoad = 240;
     };
@@ -77,6 +76,7 @@ class CfgVehicles {
     BAG_RADIO(unv_green_big_rt1523g);
     BAG_RADIO(unv_idpm_big_rt1523g);
     BAG_RADIO(unv_JIGSAW_big_rt1523g);
+    BAG_RADIO(unv_M04_big_rt1523g);
     BAG_RADIO(unv_M09D_big_rt1523g);
     BAG_RADIO(unv_M09W_big_rt1523g);
     BAG_RADIO(unv_M11_big_rt1523g);
@@ -118,6 +118,7 @@ class CfgVehicles {
     BAG_RADIO_SMALL(clf_Green_prc117g_co);
     BAG_RADIO_SMALL(clf_idpm_prc117g_co);
     BAG_RADIO_SMALL(clf_JIGSAW_prc117g_co);
+    BAG_RADIO_SMALL(clf_M04_prc117gco);
     BAG_RADIO_SMALL(clf_M05_prc117g_co);
     BAG_RADIO_SMALL(clf_M09D_prc117g_co);
     BAG_RADIO_SMALL(clf_M09W_prc117g_co);

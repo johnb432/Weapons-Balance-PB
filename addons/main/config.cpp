@@ -16,7 +16,7 @@ class CfgPatches {
             "ArmaReTex_RAHE",
             "bg21_famas_prplredux",
             "KAR_RK62",
-            "KAR_RK62M2",
+            "KAR_FDF35_RK62M2",
             "KARPB_MPT55",
             "KARPB_TYPE20",
             "PB_FO_ARM1",

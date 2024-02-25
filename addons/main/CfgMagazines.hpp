@@ -14,7 +14,7 @@ class CfgMagazines {
     class rhs_mag_30Rnd_556x45_Mk318_Stanag;
 
     class CA_Magazine;
-    class KARRK62_Mag: CA_Magazine {
+    class KAR_FDF35_RK_MAG: CA_Magazine {
         mass = 13.5;
     };
 

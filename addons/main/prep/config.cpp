@@ -16,7 +16,7 @@ class CfgPatches {
             "ArmaReTex_RAHE",
             "bg21_famas_prplredux",
             "KAR_RK62",
-            "KAR_RK62M2",
+            "KAR_FDF35_RK62M2",
             "KARPB_MPT55",
             "KARPB_TYPE20",
             "PB_FO_ARM1",
@@ -46,12 +46,9 @@ class CfgWeapons {
         };
     };
 
-    class Rifle_Long_Base_F;
-    class LMG_Zafir_F: Rifle_Long_Base_F {
-        class WeaponSlotsInfo;
-    };
-    class ArmaReTex_Negev: LMG_Zafir_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+    class LMG_Base_F;
+    class ArmaReTex_Negev: LMG_Base_F {
+        class WeaponSlotsInfo {
             delete GripodSlot;
         };
     };
