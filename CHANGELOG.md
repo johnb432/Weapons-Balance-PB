@@ -1,6 +1,6 @@
 # Changelog for Weapons balance 8.4.2024
 
-1.2.5.0
+1.3.0.0
 - Brought up to date with latest release of Project BLUFOR.
 
 # Changelog for Weapons balance 25.2.2024
