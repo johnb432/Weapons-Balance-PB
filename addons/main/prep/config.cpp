@@ -8,22 +8,16 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ArmaReTex_C7",
-            "ArmaReTex_Negev",
-            "ArmaReTex_PM63_Automatic",
-            "ArmaReTex_TAR21",
-            "ArmaReTex_Radios",
-            "ArmaReTex_RAHE",
-            "bg21_famas_prplredux",
-            "KAR_RK62",
-            "KAR_FDF35_RK62M2",
-            "KARPB_MPT55",
-            "KARPB_TYPE20",
-            "PB_FO_ARM1",
-            "PB_Rucksack",
-            "QIN_CZ_BREN2",
-            "SOLIDTAN_Uniform",
-            "tfar_backpacks"
+            "PB_C_Weapons",
+            "PB_QIN_CZ_BREN2",
+
+            "PB_Universal_Kit",
+            "PB_Australian_Kit",
+            "PB_Belgian_Kit",
+
+            "PB_AUS_F",
+            "PB_BEL_F",
+            "PB_CAN_F"
         };
         author = "johnb43";
         authors[] = {
@@ -36,20 +30,27 @@ class CfgPatches {
 };
 
 class CfgWeapons {
-    class arifle_MX_Base_F;
-    class bg21_famas_base: arifle_MX_Base_F {
-        class WeaponSlotsInfo;
-    };
-    class bg21_famas_HG: bg21_famas_base {
+    class Rifle_Base_F;
+    class PB_K2: Rifle_Base_F {
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            delete MuzzleSlot;
+            delete PointerSlot;
         };
     };
 
     class LMG_Base_F;
-    class ArmaReTex_Negev: LMG_Base_F {
+    class PB_Negev: LMG_Base_F {
         class WeaponSlotsInfo {
             delete GripodSlot;
+        };
+    };
+
+    class PB_Famas_G2: Rifle_Base_F {
+        class WeaponSlotsInfo;
+    };
+    class PB_Famas_F1: PB_Famas_G2 {
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            delete CowsSlot;
+            delete PointerSlot;
         };
     };
 };

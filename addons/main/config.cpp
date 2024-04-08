@@ -4,26 +4,21 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {};
-        weapons[] = {};
+        weapons[] = {"25Rnd_556x45_famas_Mk262","25Rnd_556x45_famas_Mk318","25Rnd_556x45_famas_IR_DIM"};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "wb_pb_main_prep",
-            "ArmaReTex_C7",
-            "ArmaReTex_Negev",
-            "ArmaReTex_PM63_Automatic",
-            "ArmaReTex_TAR21",
-            "ArmaReTex_Radios",
-            "ArmaReTex_RAHE",
-            "bg21_famas_prplredux",
-            "KAR_RK62",
-            "KAR_FDF35_RK62M2",
-            "KARPB_MPT55",
-            "KARPB_TYPE20",
-            "PB_FO_ARM1",
-            "PB_Rucksack",
-            "QIN_CZ_BREN2",
-            "SOLIDTAN_Uniform",
-            "tfar_backpacks"
+            "PB_C_Weapons",
+            "PB_QIN_CZ_BREN2",
+
+            "PB_Universal_Kit",
+            "PB_Australian_Kit",
+            "PB_Belgian_Kit",
+            "PB_Canadian_Kit",
+
+            "PB_AUS_F",
+            "PB_BEL_F",
+            "PB_CAN_F"
         };
         author = "johnb43";
         authors[] = {
@@ -35,8 +30,7 @@ class CfgPatches {
     };
 };
 
-#include "CfgAcc.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
-#include "CfgVehicles.hpp"
+// #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
