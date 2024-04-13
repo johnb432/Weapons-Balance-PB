@@ -146,7 +146,7 @@ class CfgWeapons {
     class PB_MINIMI_762: rhs_weap_m249_pip {
         magazineWell[] = {"M240_762x51","CBA_762x51_LINKS"};
 
-        class WeaponSlotsInfo {
+        class WeaponSlotsInfo: WeaponSlotsInfo {
             class MuzzleSlot: asdg_MuzzleSlot_762 {};
         };
     };

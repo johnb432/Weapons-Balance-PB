@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 13.4.2024
+
+1.3.1.0
+- Fixed minor issue with FN Minimi.
+
 # Changelog for Weapons balance 8.4.2024
 
 1.3.0.0
