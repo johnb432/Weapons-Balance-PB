@@ -103,6 +103,7 @@ class CfgWeapons {
 
     class PB_C9: Rifle_Base_F {
         magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL","M249_556x45","CBA_556x45_MINIMI"};
+        UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 155.5;
         };
@@ -167,11 +168,11 @@ class CfgWeapons {
         };
     };
 
-    class PB_GM10A4: Rifle_Base_F {
+    class rhs_weap_m4a1_blockII;
+    class rhs_weap_m4a1_blockII_M203: rhs_weap_m4a1_blockII {
         class WeaponSlotsInfo;
     };
-
-    class PB_GM10A4_M203: PB_GM10A4 {
+    class PB_GM10A4_M203: rhs_weap_m4a1_blockII_M203 {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 106;
         };
@@ -241,6 +242,10 @@ class CfgWeapons {
         };
     };
 
+    class PB_WZ96C_556: PB_RK62M2 {
+        magazineWell[] += {"CBA_556x45_AK"};
+    };
+
     class PB_Famas_G2: Rifle_Base_F {
         ACE_barrelLength = 488;
         ACE_barrelTwist = 304.8;
@@ -255,8 +260,14 @@ class CfgWeapons {
             mass = 87;
         };
     };
+
+    class UGL_F;
     class PB_Famas_G2_M203: PB_Famas_G2 {
         displayName = "FAMAS G2 (M203)";
+
+        class PB_Famas_M203: UGL_F {
+            reloadAction = "GestureReloadMk20UGL";
+        };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 117;
         };
@@ -300,6 +311,16 @@ class CfgWeapons {
     class PB_SCARL_GL: PB_SCARL {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 104.4;
+        };
+    };
+
+    class rhs_weap_pkp;
+    class rhs_weap_pkm: rhs_weap_pkp {
+        class WeaponSlotsInfo;
+    };
+    class PB_UKM: rhs_weap_pkm {
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            mass = 169;
         };
     };
 

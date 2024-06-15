@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 15.6.2024
+
+1.3.2.0
+- Updated to match latest release of PB.
+
 # Changelog for Weapons balance 13.4.2024
 
 1.3.1.0

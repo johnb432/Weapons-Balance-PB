@@ -30,7 +30,10 @@ class CfgPatches {
 };
 
 class CfgWeapons {
-    class Rifle_Base_F;
+    class Rifle;
+    class Rifle_Base_F: Rifle {
+        class WeaponSlotsInfo;
+    };
     class PB_K2: Rifle_Base_F {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             delete PointerSlot;
