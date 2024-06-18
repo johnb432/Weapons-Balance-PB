@@ -264,7 +264,6 @@ class CfgWeapons {
     class UGL_F;
     class PB_Famas_G2_M203: PB_Famas_G2 {
         displayName = "FAMAS G2 (M203)";
-
         class PB_Famas_M203: UGL_F {
             reloadAction = "GestureReloadMk20UGL";
         };
@@ -292,6 +291,9 @@ class CfgWeapons {
         displayName = "FAMAS F1 (M203)";
         magazines[] = {"PB_M855_Famas"};
         magazineWell[] = {"CBA_556x45_FAMAS"};
+        class PB_FamasF1_M203: UGL_F {
+            reloadAction = "GestureReloadMk20UGL";
+        };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 112.6;
         };

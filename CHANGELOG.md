@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 18.6.2024
+
+1.3.3.0
+- Balanced backpacks.
+
 # Changelog for Weapons balance 15.6.2024
 
 1.3.2.0
