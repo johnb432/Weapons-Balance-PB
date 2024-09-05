@@ -76,7 +76,7 @@ class CfgWeapons {
     };
 
     class PB_EF88: Rifle_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 80.7;
         };
     };
@@ -104,7 +104,7 @@ class CfgWeapons {
     class PB_C9: Rifle_Base_F {
         magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL","M249_556x45","CBA_556x45_MINIMI"};
         UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 155.5;
         };
     };
@@ -163,7 +163,7 @@ class CfgWeapons {
     };
     class PB_G36_GL: PB_G36 {
         displayName = "HK G36V (TAC/AG36)";
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 106;
         };
     };
@@ -244,6 +244,12 @@ class CfgWeapons {
 
     class PB_WZ96C_556: PB_RK62M2 {
         magazineWell[] += {"CBA_556x45_AK"};
+    };
+    class PB_WZ96C_M545: PB_WZ96C_556 {
+        magazineWell[] += {"AK_545x39","CBA_545x39_AK","CBA_545x39_RPK"};
+    };
+    class PB_WZ96C_M762: PB_WZ96C_556 {
+        magazineWell[] += {"AK_762x39","CBA_762x39_AK","CBA_762x39_RPK"};
     };
 
     class PB_Famas_G2: Rifle_Base_F {

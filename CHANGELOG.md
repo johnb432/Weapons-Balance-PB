@@ -1,3 +1,9 @@
+# Changelog for Weapons balance 5.9.2024
+
+1.3.4.0
+- Minor cleanup.
+- Added some magazines to the 5.45 & 7.62 Beryls.
+
 # Changelog for Weapons balance 18.6.2024
 
 1.3.3.0
