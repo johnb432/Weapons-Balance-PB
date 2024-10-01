@@ -145,8 +145,7 @@ class CfgWeapons {
         class WeaponSlotsInfo;
     };
     class PB_MINIMI_762: rhs_weap_m249_pip {
-        magazineWell[] = {"M240_762x51","CBA_762x51_LINKS"};
-
+        magazineWell[] += {"M240_762x51","CBA_762x51_LINKS"};
         class WeaponSlotsInfo: WeaponSlotsInfo {
             class MuzzleSlot: asdg_MuzzleSlot_762 {};
         };
@@ -188,6 +187,7 @@ class CfgWeapons {
     };
 
     class PB_MG5: Rifle_Base_F {
+        ace_overheating_closedBolt = 0;
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 255.2;
         };
@@ -330,6 +330,10 @@ class CfgWeapons {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 169;
         };
+    };
+
+    class PB_XM250: Rifle_Base_F {
+        ace_overheating_closedBolt = 0;
     };
 
     class arifle_TRG21_GL_F;

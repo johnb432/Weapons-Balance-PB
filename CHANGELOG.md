@@ -1,3 +1,10 @@
+# Changelog for Weapons balance 1.10.2024
+
+1.3.5.0
+- Balanced weight of XM250 magazines.
+- Fixed missing tracers from green & yellow tracer magazines for the XM250 & MCX Spear.
+- Fixed missing 7.62x51mm belt compatibility.
+
 # Changelog for Weapons balance 5.9.2024
 
 1.3.4.0

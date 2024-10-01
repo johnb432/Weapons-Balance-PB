@@ -27,6 +27,15 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_762x51_LINKS {
+        MAGAZINE_WELL[] += {
+            "PB_200Rnd_762x51_M61",
+            "PB_200Rnd_762x51_M62",
+            "PB_200Rnd_762x51_M80",
+            "PB_200Rnd_762x51_M80_EPR"
+        };
+    };
+
     class CBA_762x51_MG3 {
         MAGAZINE_WELL[] += {
             "PB_MG3_100Belt_NOT",

@@ -48,4 +48,27 @@ class CfgMagazines {
     class PB_MG3_100Belt_T: rhsgref_296Rnd_792x57_SmE_belt {
         mass = 32.3;
     };
+
+    class CA_Magazine;
+    class PB_200Rnd_762x51_M80: CA_Magazine {
+        mass = 62;
+    };
+
+    class PB_100Rnd_Fury: CA_Magazine {
+        mass = 29;
+    };
+    class PB_100Rnd_Fury_GT: PB_100Rnd_Fury {
+        tracersEvery = 1;
+    };
+    class PB_100Rnd_Fury_YT: PB_100Rnd_Fury {
+        tracersEvery = 1;
+    };
+
+    class PB_20Rnd_Fury;
+    class PB_20Rnd_Fury_GT: PB_20Rnd_Fury {
+        tracersEvery = 1;
+    };
+    class PB_20Rnd_Fury_YT: PB_20Rnd_Fury {
+        tracersEvery = 1;
+    };
 };

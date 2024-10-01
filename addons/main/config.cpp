@@ -53,3 +53,11 @@ class CfgPatches {
 #include "CfgMagazineWells.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
+
+class CfgAmmo {
+    class BulletBase;
+    class PB_65x51_Fury_Ammo: BulletBase {
+        ACE_ballisticCoefficients[] = {0.488};
+        ACE_barrelLengths[] = {330};
+    };
+};
